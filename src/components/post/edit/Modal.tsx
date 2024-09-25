@@ -9,8 +9,8 @@ import { AddPhoto } from "../../AddPhoto";
 import { CaptionPage } from "../../CaptionPage";
 import { MentionPost } from "../../MentionPost";
 import { useQueryClient } from "@tanstack/react-query";
-import { json } from "react-router-dom";
 import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 
 interface IProps {
   postId: string;
